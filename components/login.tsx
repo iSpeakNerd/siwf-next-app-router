@@ -62,9 +62,7 @@ function Content() {
         />
         {error && <div>Unable to sign in at this time.</div>}
       </div>
-      <div style={{ paddingTop: '33vh', textAlign: 'center' }}>
-        <Profile />
-      </div>
+      <div style={{ textAlign: 'center' }}>{/* <Profile /> */}</div>
     </div>
   );
 }
