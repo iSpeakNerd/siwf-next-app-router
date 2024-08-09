@@ -5,7 +5,7 @@ import Footer from '@/components/footer';
 export const metadata: Metadata = {
   title: {
     template: '%s  | tabletop.xyz',
-    default: 'siwf-next-app-router',
+    default: 'tabletop.xyz',
   },
   description: 'A cross-platform app for managing tabletop games.',
 };
