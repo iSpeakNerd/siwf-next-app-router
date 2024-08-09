@@ -53,7 +53,7 @@ function Content() {
 
   return (
     <div>
-      <div style={{ position: 'fixed', top: '12px', right: '12px' }}>
+      <div style={{ position: 'fixed', top: '24px', right: '24px' }}>
         <SignInButton
           nonce={getNonce}
           onSuccess={handleSuccess}

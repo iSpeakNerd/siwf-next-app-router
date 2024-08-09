@@ -1,22 +1,26 @@
 import type { Metadata } from 'next';
 import '@/globals.css';
+import Footer from '@/components/footer';
 
 export const metadata: Metadata = {
   title: {
     template: '%s  | tabletop.xyz',
     default: 'siwf-next-app-router',
   },
-  description: 'Sign In with Farcaster x Next.js App Router x NextAuth Demo',
+  description: 'A cross-platform app for managing tabletop games.',
 };
 
 export default function RootLayout({
   children,
-}: {
+}: Readonly<{
   children: React.ReactNode;
-}): JSX.Element {
+}>) {
   return (
     <html lang='en'>
-      <body>{children}</body>
+      <body>
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }

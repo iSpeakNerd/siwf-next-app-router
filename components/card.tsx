@@ -14,7 +14,7 @@ export default function Card(props: {
         rel='noopener noreferrer'
       >
         <h2 className='text-pretty mb-3 text-2xl font-semibold'>
-          {props.title}{' '}
+          {props.title + ' '}
           <span className='max-w-[30ch] inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none'>
             -&gt;
           </span>
